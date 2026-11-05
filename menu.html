@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Explore coffee, bites and sweet treats at The Daily Brew."><title>Our Menu | The Daily Brew</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="announcement">Freshly brewed, freshly baked, always welcoming <span>✦</span></div>
+<header class="site-header"><a class="brand" href="index.html"><img src="assets/logo.jpg" alt="The Daily Brew logo"></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button><nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a class="active" href="menu.html">Menu</a><a href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Visit us <span>↗</span></a></nav></header>
+<main>
+  <section class="page-hero menu-hero"><div class="page-hero-content reveal"><p class="eyebrow light">FRESH FROM OUR KITCHEN</p><h1>A menu made<br><em>for good days.</em></h1><p>Your familiar favourites, a few sweet treats and something lovely for every kind of craving.</p></div></section>
+  <section class="menu-section section-pad">
+    <div class="menu-intro"><div><p class="eyebrow">TAKE YOUR PICK</p><h2>What sounds<br><em>good today?</em></h2></div><p class="heading-note">A little something to sip, a little something to savour. Explore the menu.</p></div>
+    <div class="menu-filters" role="group" aria-label="Filter menu"><button class="filter-btn active" data-filter="all">Everything</button><button class="filter-btn" data-filter="coffee">Coffee & drinks</button><button class="filter-btn" data-filter="bites">Savoury bites</button><button class="filter-btn" data-filter="sweet">Sweet treats</button></div>
+    <div class="menu-grid">
+      <article class="menu-card" data-category="coffee" id="coffee"><img src="assets/cappuccino.jpg" alt="Cappuccino"><div class="menu-card-body"><div class="menu-card-title"><h3>Classic Cappuccino</h3><span>₹120</span></div><p>Espresso, steamed milk and a soft cloud of foam.</p><small>COFFEE & DRINKS</small></div></article>
+      <article class="menu-card" data-category="coffee"><img src="assets/iced-coffee.jpg" alt="Iced coffee"><div class="menu-card-body"><div class="menu-card-title"><h3>Chocolate Iced Coffee</h3><span>₹150</span></div><p>Chilled coffee, creamy milk and chocolate drizzle.</p><small>COFFEE & DRINKS</small></div></article>
+      <article class="menu-card" data-category="bites" id="bites"><img src="assets/sandwich.jpg" alt="Grilled sandwich"><div class="menu-card-body"><div class="menu-card-title"><h3>Grilled Café Sandwich</h3><span>₹160</span></div><p>Toasted bread with a delicious, comforting filling.</p><small>SAVOURY BITES</small></div></article>
+      <article class="menu-card" data-category="sweet" id="sweet"><img src="assets/brownie.jpg" alt="Chocolate brownie"><div class="menu-card-body"><div class="menu-card-title"><h3>Chocolate Brownie</h3><span>₹110</span></div><p>Rich, fudgy chocolate with a generous drizzle.</p><small>SWEET TREATS</small></div></article>
+    </div>
+    <p class="menu-disclaimer">Menu and prices shown are sample details for this website project. Please confirm actual offerings before publishing.</p>
+  </section>
+  <section class="menu-cta"><p class="eyebrow light">GOOD TASTE, GOOD COMPANY</p><h2>Your next favourite<br><em>is waiting.</em></h2><a class="button button-light" href="contact.html">Plan your visit <span>↗</span></a></section>
+</main>
+<footer class="site-footer"><div class="footer-main"><a class="footer-brand" href="index.html">The Daily <em>Brew.</em></a><p>Good coffee. Good food.<br>Good moments.</p><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="contact.html">Contact</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> The Daily Brew. Made with warmth.</span><span>TAKE A SIP. TAKE A BREATH. ☕</span></div></footer><script src="script.js"></script></body></html>
