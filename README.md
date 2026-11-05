@@ -1,32 +1,25 @@
-# The Daily Brew ☕
+# The Daily Brew | Premium Café Website
 
-A creative, responsive four-page café website built with HTML, CSS and JavaScript.
+A responsive four-page café website built with plain HTML, CSS and JavaScript. No framework or build step is required.
 
 ## Files
 - `index.html` – Home
-- `about.html` – About
-- `menu.html` – Menu with interactive category filters
-- `contact.html` – Contact page with a mailto enquiry form
-- `style.css` – Shared design system and responsive styles
-- `script.js` – Mobile navigation, scroll reveal, menu filters and contact form
-- `assets/` – The six supplied images
+- `about.html` – About the café
+- `menu.html` – Menu with working category filters
+- `contact.html` – Contact details and demo email form
+- `style.css` – Shared responsive design system and page styles
+- `script.js` – Mobile navigation, scroll reveals, menu filters and contact form behavior
+- `assets/` – Supplied café images and logo
 
 ## Run locally
-Open `index.html` in a browser. No build tools or frameworks are required.
+Open `index.html` in a browser. For GitHub Pages, upload all files and folders while preserving this structure, then enable Pages from the repository's `main` branch and `/ (root)`.
 
-## Publish with GitHub Pages
-1. Create a GitHub repository, for example `the-daily-brew`.
-2. Upload all four HTML files, `style.css`, `script.js`, `README.md`, and the complete `assets` folder.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/ (root)`, then save.
-6. Wait for GitHub Pages to publish your site.
+## Before publishing
+1. Replace the sample menu prices and descriptions with the café's real menu.
+2. Update the email, address and opening hours in `contact.html`.
+3. Replace `hello@thedailybrew.example` in `script.js` with the real contact email. The form currently prepares an email using the visitor's default mail app; it is not a backend form.
+4. Confirm image usage rights and replace any image that is not approved for publication.
+5. Check all pages on mobile and desktop after deployment.
 
-## Before submitting
-- Replace the sample menu prices with the actual prices if provided.
-- Replace the sample email and address in `contact.html`.
-- In `script.js`, replace `hello@thedailybrew.example` with the real café email.
-- Confirm opening hours and contact details.
-- Google Fonts are loaded online; the site still uses fallback fonts if unavailable.
-
-All image assets supplied for this project are included in `assets/`.
+## Design notes
+Warm espresso / ivory palette, editorial serif display typography, large image-led layouts, restrained motion, responsive navigation, accessible labels and reduced-motion support.
